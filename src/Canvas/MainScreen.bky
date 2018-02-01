@@ -1,0 +1,55 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="component_event" id="92C5o(mk7|%GQW@Afq+2" x="413" y="38">
+    <mutation component_type="Canvas" instance_name="Canvas1" event_name="Dragged"></mutation>
+    <field name="COMPONENT_SELECTOR">Canvas1</field>
+    <statement name="DO">
+      <block type="component_method" id="Jf:FsdZP=1TQbXI7_)j)">
+        <mutation component_type="Canvas" method_name="DrawLine" is_generic="false" instance_name="Canvas1"></mutation>
+        <field name="COMPONENT_SELECTOR">Canvas1</field>
+        <value name="ARG0">
+          <block type="lexical_variable_get" id="b61Zi%#mFYvSm$He7b/8">
+            <mutation>
+              <eventparam name="prevX"></eventparam>
+            </mutation>
+            <field name="VAR">prevX</field>
+          </block>
+        </value>
+        <value name="ARG1">
+          <block type="lexical_variable_get" id="}?hw^Rce)odTT_U^i4Qx">
+            <mutation>
+              <eventparam name="prevY"></eventparam>
+            </mutation>
+            <field name="VAR">prevY</field>
+          </block>
+        </value>
+        <value name="ARG2">
+          <block type="lexical_variable_get" id="|:l5$~=I1EzT3)to;{Ic">
+            <mutation>
+              <eventparam name="currentX"></eventparam>
+            </mutation>
+            <field name="VAR">currentX</field>
+          </block>
+        </value>
+        <value name="ARG3">
+          <block type="lexical_variable_get" id="J=g%S)NAVM0VT%hNuk=h">
+            <mutation>
+              <eventparam name="currentY"></eventparam>
+            </mutation>
+            <field name="VAR">currentY</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="mjFOV~H;xxz,y*ahD#)q" x="408" y="295">
+    <mutation component_type="AccelerometerSensor" instance_name="Accelerometer1" event_name="Shaking"></mutation>
+    <field name="COMPONENT_SELECTOR">Accelerometer1</field>
+    <statement name="DO">
+      <block type="component_method" id="JJo!vH|Qv0s:w[7KuRjD">
+        <mutation component_type="Canvas" method_name="Clear" is_generic="false" instance_name="Canvas1"></mutation>
+        <field name="COMPONENT_SELECTOR">Canvas1</field>
+      </block>
+    </statement>
+  </block>
+  <yacodeblocks ya-version="160" language-version="20"></yacodeblocks>
+</xml>

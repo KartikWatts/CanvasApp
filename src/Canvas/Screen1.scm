@@ -1,0 +1,4 @@
+#|
+$JSON
+{"authURL":["app.thunkable.com"],"YaVersion":"160","Source":"Form","Properties":{"$Name":"Screen1","$Type":"Form","$Version":"20","AboutScreen":"A simple but efficient canvas app made by Kartik Arora for drawing, using Thunkable.","AlignVertical":"2","AppName":"Canvas","BackgroundColor":"&HFFFFC107","CloseScreenAnimation":"fade","Icon":"canvasicon.png","OpenScreenAnimation":"zoom","ShowStatusBar":"False","Title":"KK Canvas","TitleVisible":"False","Uuid":"0","$Components":[{"$Name":"Image1","$Type":"Image","$Version":"3","Height":"-1050","Width":"-2","Picture":"canvaslogo.png","Uuid":"-129266892"},{"$Name":"Label1","$Type":"Label","$Version":"4","FontBold":"True","FontSize":"20","Text":"A Drawing Tool by Kartik Arora","TextColor":"&HFFFFFFFF","Uuid":"1948555152"},{"$Name":"Clock1","$Type":"Clock","$Version":"3","TimerAlwaysFires":"False","TimerInterval":"1500","Uuid":"1504119117"}]}}
+|#

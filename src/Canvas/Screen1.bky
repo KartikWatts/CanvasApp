@@ -1,0 +1,28 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="component_event" id="d9QCeWfT)_l?UmHXS++/" x="459" y="20">
+    <mutation component_type="Clock" instance_name="Clock1" event_name="Timer"></mutation>
+    <field name="COMPONENT_SELECTOR">Clock1</field>
+    <statement name="DO">
+      <block type="component_set_get" id="p)Hnd8ox3eYknSqGfS(/">
+        <mutation component_type="Clock" set_or_get="set" property_name="TimerEnabled" is_generic="false" instance_name="Clock1"></mutation>
+        <field name="COMPONENT_SELECTOR">Clock1</field>
+        <field name="PROP">TimerEnabled</field>
+        <value name="VALUE">
+          <block type="logic_boolean" id="Eikp/`{c,`lny_(V9Dss">
+            <field name="BOOL">FALSE</field>
+          </block>
+        </value>
+        <next>
+          <block type="controls_openAnotherScreen" id="5J484VtV45Es;/bP$#XC">
+            <value name="SCREEN">
+              <block type="text" id="z*Pd8on0FViX`W@6JPZx">
+                <field name="TEXT">MainScreen</field>
+              </block>
+            </value>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <yacodeblocks ya-version="160" language-version="20"></yacodeblocks>
+</xml>
